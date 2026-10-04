@@ -16,4 +16,4 @@ We use a **Stack** to store indices.
 The stack initially contains:
 
 ```text
--1
+-1saaaa
