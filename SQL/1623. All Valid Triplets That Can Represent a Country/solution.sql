@@ -1,0 +1,3 @@
+-- TODO: Research the official statement and schema for LeetCode 1623: All Valid Triplets That Can Represent a Country.
+-- The supplied source list contains only the problem title and difficulty.
+-- Do not submit a guessed query. Replace this file with a researched MySQL solution.

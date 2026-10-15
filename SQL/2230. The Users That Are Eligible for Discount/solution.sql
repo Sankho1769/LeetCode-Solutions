@@ -1,0 +1,3 @@
+-- TODO: Research the official statement and schema for LeetCode 2230: The Users That Are Eligible for Discount.
+-- The supplied source list contains only the problem title and difficulty.
+-- Do not submit a guessed query. Replace this file with a researched MySQL solution.
