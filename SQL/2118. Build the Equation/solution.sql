@@ -1,0 +1,3 @@
+-- TODO: Research the official statement and schema for LeetCode 2118: Build the Equation.
+-- The supplied source list contains only the problem title and difficulty.
+-- Do not submit a guessed query. Replace this file with a researched MySQL solution.
