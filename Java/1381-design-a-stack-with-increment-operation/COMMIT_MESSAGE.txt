@@ -1,5 +1,0 @@
-feat(leetcode): solve 1381 using lazy increment propagation
-
-- Implement array-backed CustomStack with fixed capacity
-- Support push, pop, and increment in O(1) time
-- Defer prefix increments and propagate them during pop

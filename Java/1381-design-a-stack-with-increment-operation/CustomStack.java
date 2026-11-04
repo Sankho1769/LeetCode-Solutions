@@ -28,12 +28,10 @@ class CustomStack {
         int index = --size;
         int result = stack[index] + increment[index];
 
-        // Pass the pending increment to the next element below.
         if (index > 0) {
             increment[index - 1] += increment[index];
         }
 
-        // Reset the slot so a future push does not inherit stale state.
         increment[index] = 0;
 
         return result;
