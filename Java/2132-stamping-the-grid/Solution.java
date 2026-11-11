@@ -34,7 +34,6 @@ class Solution {
             }
         }
 
-        // Reconstruct stamp coverage and verify every empty cell.
         for (int r = 0; r < m; r++) {
             for (int c = 0; c < n; c++) {
                 if (r > 0) {

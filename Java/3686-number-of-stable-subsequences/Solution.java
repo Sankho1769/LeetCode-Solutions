@@ -11,10 +11,8 @@ class Solution {
             long previousSameParityRunOne = dp[parity][1];
             long oppositeParityTotal = (dp[other][1] + dp[other][2]) % MOD;
 
-            // Extend same-parity suffixes of length one to length two.
             dp[parity][2] = (dp[parity][2] + previousSameParityRunOne) % MOD;
 
-            // Start a singleton, or append this value after the opposite parity.
             dp[parity][1] = (dp[parity][1] + 1 + oppositeParityTotal) % MOD;
         }
 
